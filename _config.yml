@@ -1,0 +1,85 @@
+##########
+# collectionbuilder-contentdm
+# Jekyll Digital Collection Generator, designed as a skin over CONTENTdm
+# https://github.com/CollectionBuilder/collectionbuilder-contentdm
+##########
+
+##########
+# URL VARIABLES
+#
+# site domain, full URL to the production location of your collection
+url: https://cdm15730.contentdm.oclc.org/digital
+# path to location on the domain if necessary e.g. /digital/hjccc
+baseurl: /cdm/sites/15730/data/p15730coll35
+# location of code, the full url to your github repository
+source-code: https://github.com/gdo390/pepperdine
+
+##########
+# SITE SETTINGS
+#
+# title of site appears in banner
+title: Frederick R. Weisman Museum of Art Collection
+# tagline, a short phrase that will appear throughout the site in the top banner
+tagline: Digital Collection featuring a selection of artwork from the Weisman Museum of Art  
+# description appears in meta tags and other locations
+# this description might appear in search result lists, keep around 160 characters max
+description: "A selection of works of art from the Frederick R. Weisman Museum of Art from Pepperdine University" 
+# keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
+keywords: art;art history;Pepperdine University;Weisman Museum 
+# creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
+author: Pepperdine University Libraries
+# Organization branding
+organization-name: "Pepperdine Libraries"
+organization-link: https://library.pepperdine.edu/
+organization-logo-banner: https://drive.google.com/uc?export=download&id=1JlYG8iIs9lZlkjsVzWud_qrljjRofdPz
+organization-logo-nav: https://library.pepperdine.edu/
+
+
+##########
+# COLLECTION SETTINGS
+#
+# choose metadata: this is the name of the csv file in your _data directory that describes the objects in your collection
+metadata: weisman_metadata_final
+# contentdm collection name, matches collection ID used by CDM
+cdm-collection-id: p15730coll35
+# CONTENTdm server url
+cdm-url: https://cdm15730.contentdm.oclc.org
+# page generation settings [optional!]
+# [optional: only used if you need to tweak CB defaults or generate from more than one data file]
+# page_gen:
+#   - data: 'demo-metadata'
+#     template: 'item'
+#     name: 'objectid'
+#     dir: 'items'
+#     extension: 'html' 
+#     filter: 'objectid'  
+
+
+##########
+# GOOGLE SERVICES [optional!]
+#
+# leave these blank or comment out to NOT include google code. See docs/google.md
+#
+# Add your google-analytics-id to automatically add the embed code, e.g. "UA-76328753-1"
+# google-analytics-id:
+# to populate a Google CSE add the id, e.g. "002151703305773322890:1pu3smhw1t8"
+# google-cse-id: 
+
+##########
+# ROBOTS EXCLUDE
+#
+# set noindex to true if you do NOT want Google to index your site
+noindex: true 
+
+##########
+# BUILD SETTINGS 
+#
+# Note: use environment variable on build command to include analytics
+# JEKYLL_ENV=production jekyll build
+# (this is done automatically by gh-pages build)
+#
+# ignore stuff
+exclude: [docs/, Rakefile, README.md, LICENSE]
+# compress CSS output
+sass:
+  style: compressed
