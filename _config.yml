@@ -27,7 +27,7 @@ description: "A selection of works of art from the Frederick R. Weisman Museum o
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: art;art history;Pepperdine University;Weisman Museum 
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: Pepperdine University Libraries
+author: gdo390
 # Organization branding
 organization-name: "Pepperdine Libraries"
 organization-link: https://library.pepperdine.edu/
