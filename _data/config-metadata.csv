@@ -11,7 +11,7 @@ location,Location,,,contentLocation
 latitude,Latitude
 longitude,Longitude
 source,Publisher
-identifier,Source Identifier
+identifier,Accession Number
 type,Type,,DCTERMS.type
 format original,Format Original
 format,Format,,,encodingFormat
