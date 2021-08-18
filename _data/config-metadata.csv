@@ -10,7 +10,7 @@ subject,Subjects,true,DCTERMS.subject,keywords
 location,Location,,,contentLocation
 latitude,Latitude
 longitude,Longitude
-publisher,Publisher
+source,Publisher
 identifier,Source Identifier
 type,Type,,DCTERMS.type
 format original,Format Original
