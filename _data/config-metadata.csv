@@ -15,4 +15,5 @@ identifier,Source Identifier
 type,Type,,DCTERMS.type
 format original,Format Original
 format,Format,,,encodingFormat
+publisher,Publisher
 rightsstatement,,,DCTERMS.rights,license
