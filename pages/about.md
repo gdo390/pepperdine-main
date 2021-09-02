@@ -12,7 +12,7 @@ credits: true
 
 {% include feature/nav-menu.html sections="About the Collection Builder CDM Skin;About the About Page" %}
 
-## About the Collection Builder CDM Skin
+## About the Weisman Digital Collection 
 
 This demo collection features items from Pepperdine University's [Frederick R. Weisman Museum of Art](https://arts.pepperdine.edu/museum/), and is built using [CollectionBuilder-CONTENTdm](https://github.com/CollectionBuilder/collectionbuilder-contentdm).
 
